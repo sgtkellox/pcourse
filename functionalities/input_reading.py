@@ -13,7 +13,7 @@ def readInput(args=sys.argv[1:]):
     thresh = options.thresh
     return path, thresh
 
+
 def dropColByName(table, colName):
     newTable = table.drop(colName, axis=1)
     return newTable
-    
