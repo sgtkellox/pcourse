@@ -12,3 +12,8 @@ def readInput(args=sys.argv[1:]):
     path = options.path
     thresh = options.thresh
     return path, thresh
+
+def dropColByName(table, colName):
+    newTable = table.drop(colName, axis=1)
+    return newTable
+    

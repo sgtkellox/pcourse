@@ -3,7 +3,6 @@ import seaborn as sns
 import pandas as pd
 
 
-
 def linePlot(data, path):
     data.plot()
     plt.savefig(path, mat="pdf", bbox_inches="tight")
